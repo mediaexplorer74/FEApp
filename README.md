@@ -1,5 +1,5 @@
 # FEApp
-My fork based on [Tunip3/FEApp](https://github.com/tunip3/FEApp) and [Osaxely/ExtendedStorage](https://github.com/Osaxely/ExtendedStorage).
+My fork of FEApp project based on [Tunip3/FEApp](https://github.com/tunip3/FEApp) and [Osaxely/ExtendedStorage](https://github.com/Osaxely/ExtendedStorage).
 
 ## About
 FEApp = Special File Explorer app (UWP edition; min. os. build: 16299 at now)
@@ -84,6 +84,9 @@ EStorageFolder folder = EStorageFolder.GetFromPath(FOLDER_PATH); // Returns null
 EStorageFile textFile = folder.GetFile("sample.txt"); // Get file from that folder, also returns null if the file was not found.
 
 textFile.WriteText("Hello world"); // Read all the text.
+
+## TODO
+Solve the problem "Empty folder" ^ ^
 
 ## Referenes
 - https://github.com/tunip3/FEApp/
